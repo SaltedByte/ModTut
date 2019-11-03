@@ -1,3 +1,15 @@
 {
-  "item.modtut.hardened_diamond": "Hardened Diamond"
+  "item.tutorialmod.hardened_diamond": "Hardened Diamond",
+  "item.tutorialmod.hardened_axe": "Hardened Diamond Axe",
+  "item.tutorialmod.hardened_chestplate": "Hardened Diamond Chestplate",
+  "item.tutorialmod.hardened_diamond_block": "Hardened Diamond Block",
+  "item.tutorialmod.hardened_headgear": "Hardened Diamond Helmet",
+  "item.tutorialmod.hardened_hoe": "Hardened Diamond Hoe",
+  "item.tutorialmod.hardened_pants": "Hardened Diamond Pants",
+  "item.tutorialmod.hardened_pickaxe": "Hardened Diamond Pickaxe",
+  "item.tutorialmod.hardened_shoes": "Hardened Diamond Shoes",
+  "item.tutorialmod.hardened_spade": "Hardened Diamond Spade",
+  "item.tutorialmod.hardened_sword": "Hardened Diamond Sword"
+
+
 }

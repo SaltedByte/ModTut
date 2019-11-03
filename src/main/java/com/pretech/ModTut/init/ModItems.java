@@ -29,7 +29,17 @@ public class ModItems {
         //In here you pass in all item instances you want to register.
         //Make sure you always set the registry name.
         event.getRegistry().registerAll(
-                new Item(new Item.Properties().maxStackSize(64).group(ItemGroup.MISC)).setRegistryName(TutorialMod.modtut, "hardened_diamond")
+                new Item(new Item.Properties().maxStackSize(64).group(ItemGroup.MISC)).setRegistryName(TutorialMod.modtut, "hardened_diamond"),
+                new Item(new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(TutorialMod.modtut, "hardened_diamond_block"),
+                new Item(new Item.Properties().maxStackSize(1).group(ItemGroup.TOOLS)).setRegistryName(TutorialMod.modtut, "hardened_pickaxe"),
+                new Item(new Item.Properties().maxStackSize(1).group(ItemGroup.COMBAT)).setRegistryName(TutorialMod.modtut, "hardened_sword"),
+                new Item(new Item.Properties().maxStackSize(1).group(ItemGroup.TOOLS)).setRegistryName(TutorialMod.modtut, "hardened_axe"),
+                new Item(new Item.Properties().maxStackSize(1).group(ItemGroup.TOOLS)).setRegistryName(TutorialMod.modtut, "hardened_spade"),
+                new Item(new Item.Properties().maxStackSize(1).group(ItemGroup.COMBAT)).setRegistryName(TutorialMod.modtut, "hardened_headgear"),
+                new Item(new Item.Properties().maxStackSize(1).group(ItemGroup.COMBAT)).setRegistryName(TutorialMod.modtut, "hardened_chestplate"),
+                new Item(new Item.Properties().maxStackSize(1).group(ItemGroup.COMBAT)).setRegistryName(TutorialMod.modtut, "hardened_pants"),
+                new Item(new Item.Properties().maxStackSize(1).group(ItemGroup.COMBAT)).setRegistryName(TutorialMod.modtut, "hardened_shoes"),
+                new Item(new Item.Properties().maxStackSize(1).group(ItemGroup.TOOLS)).setRegistryName(TutorialMod.modtut, "hardened_hoe")
         );
     }
 
