@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "tutorialmod:hardened_diamond"
+        }
+    },
+    "result": {
+        "item": "tutorialmod:hardened_diamond_block",
+        "count": 1
+    }
+}

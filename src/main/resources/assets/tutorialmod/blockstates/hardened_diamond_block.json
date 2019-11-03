@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": [
+      { "model": "modtut:block/hardened_diamond_block" }
+    ]
+  }
+}

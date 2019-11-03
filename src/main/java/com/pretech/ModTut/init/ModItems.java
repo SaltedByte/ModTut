@@ -30,7 +30,6 @@ public class ModItems {
         //Make sure you always set the registry name.
         event.getRegistry().registerAll(
                 new Item(new Item.Properties().maxStackSize(64).group(ItemGroup.MISC)).setRegistryName(TutorialMod.modtut, "hardened_diamond"),
-                new Item(new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(TutorialMod.modtut, "hardened_diamond_block"),
                 new Item(new Item.Properties().maxStackSize(1).group(ItemGroup.TOOLS)).setRegistryName(TutorialMod.modtut, "hardened_pickaxe"),
                 new Item(new Item.Properties().maxStackSize(1).group(ItemGroup.COMBAT)).setRegistryName(TutorialMod.modtut, "hardened_sword"),
                 new Item(new Item.Properties().maxStackSize(1).group(ItemGroup.TOOLS)).setRegistryName(TutorialMod.modtut, "hardened_axe"),
