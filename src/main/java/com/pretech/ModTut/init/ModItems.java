@@ -1,6 +1,7 @@
 package com.pretech.ModTut.init;
 
 import com.pretech.ModTut.TutorialMod;
+import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraftforge.event.RegistryEvent;
@@ -31,6 +32,8 @@ public class ModItems {
         event.getRegistry().registerAll(
                 new Item(new Item.Properties().maxStackSize(64).group(ItemGroup.MISC)).setRegistryName(TutorialMod.modtut, "hardened_diamond"),
                 new Item(new Item.Properties().maxStackSize(1).group(ItemGroup.TOOLS)).setRegistryName(TutorialMod.modtut, "hardened_pickaxe"),
+                //new Item(new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(TutorialMod.modtut, "hardened_diamond_block"),
+                new BlockItem(ModBlocks.hardened_diamond_block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(ModBlocks.hardened_diamond_block.getRegistryName()),
                 new Item(new Item.Properties().maxStackSize(1).group(ItemGroup.COMBAT)).setRegistryName(TutorialMod.modtut, "hardened_sword"),
                 new Item(new Item.Properties().maxStackSize(1).group(ItemGroup.TOOLS)).setRegistryName(TutorialMod.modtut, "hardened_axe"),
                 new Item(new Item.Properties().maxStackSize(1).group(ItemGroup.TOOLS)).setRegistryName(TutorialMod.modtut, "hardened_spade"),
